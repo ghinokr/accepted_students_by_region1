@@ -43,7 +43,7 @@ if submit_button:
                 my_bar.progress(percent_complete + 1, text=progress_text)
             time.sleep(1)
             my_bar.empty()
-            st.switch_page('/pages/accepted_students_by_region.py')
+            st.switch_page('pages/accepted_students_by_region.py')
             
             
         else:
